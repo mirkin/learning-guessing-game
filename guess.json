@@ -1,0 +1,151 @@
+{
+  "root": {
+    "yes": {
+      "yes": {
+        "yes": null, 
+        "question": "An Elephant", 
+        "no": null
+      }, 
+      "question": "Does it have a trunk", 
+      "no": {
+        "yes": {
+          "yes": null, 
+          "question": "A Human", 
+          "no": null
+        }, 
+        "question": "Are you one", 
+        "no": {
+          "yes": {
+            "yes": null, 
+            "question": "A Camel", 
+            "no": null
+          }, 
+          "question": "Can it go a long time without food and drink", 
+          "no": {
+            "yes": null, 
+            "question": "A Horse", 
+            "no": null
+          }
+        }
+      }
+    }, 
+    "question": "Can you ride it", 
+    "no": {
+      "yes": {
+        "yes": null, 
+        "question": "A Dog", 
+        "no": null
+      }, 
+      "question": "Does it Bark", 
+      "no": {
+        "yes": {
+          "yes": {
+            "yes": null, 
+            "question": "A Frog", 
+            "no": null
+          }, 
+          "question": "Is it good at jumping", 
+          "no": {
+            "yes": {
+              "yes": null, 
+              "question": "A Fish", 
+              "no": null
+            }, 
+            "question": "Can it breathe under water", 
+            "no": {
+              "yes": null, 
+              "question": "A Hippo", 
+              "no": null
+            }
+          }
+        }, 
+        "question": "Does it live in water", 
+        "no": {
+          "yes": {
+            "yes": null, 
+            "question": "A Monkey", 
+            "no": null
+          }, 
+          "question": "Does it like Bananas", 
+          "no": {
+            "yes": {
+              "yes": {
+                "yes": null, 
+                "question": "A Sloth", 
+                "no": null
+              }, 
+              "question": "Does it hang in trees", 
+              "no": {
+                "yes": null, 
+                "question": "A Sheep", 
+                "no": null
+              }
+            }, 
+            "question": "Is it wooly", 
+            "no": {
+              "yes": {
+                "yes": null, 
+                "question": "A Cow", 
+                "no": null
+              }, 
+              "question": "Does it eat grass all day long", 
+              "no": {
+                "yes": {
+                  "yes": null, 
+                  "question": "A Bird", 
+                  "no": null
+                }, 
+                "question": "Can it fly", 
+                "no": {
+                  "yes": {
+                    "yes": {
+                      "yes": null, 
+                      "question": "a giraffe", 
+                      "no": null
+                    }, 
+                    "question": "does it have a very long neck", 
+                    "no": {
+                      "yes": null, 
+                      "question": "A Tricertops", 
+                      "no": null
+                    }
+                  }, 
+                  "question": "is it very very big", 
+                  "no": {
+                    "yes": {
+                      "yes": null, 
+                      "question": "a piggy", 
+                      "no": null
+                    }, 
+                    "question": "does it oink", 
+                    "no": {
+                      "yes": {
+                        "yes": {
+                          "yes": null, 
+                          "question": "A Cat", 
+                          "no": null
+                        }, 
+                        "question": "Does it purr", 
+                        "no": {
+                          "yes": null, 
+                          "question": "A Lizzard", 
+                          "no": null
+                        }
+                      }, 
+                      "question": "Does it have limbs", 
+                      "no": {
+                        "yes": null, 
+                        "question": "A snake", 
+                        "no": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
