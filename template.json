@@ -1,0 +1,8 @@
+{
+  "question":"Think of something.",
+  "root":{
+    "question":"Is it the Universe?",
+    "yes":null,
+    "no":null
+  }
+}

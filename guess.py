@@ -18,8 +18,29 @@ def loadTree():
     with open(gamefile) as infile:
       data=json.load(infile)
   except EnvironmentError:
-      print('Oops problem loading my brain!')
+      print('Oops problem loading my brain! '+gamefile)
   return data
+
+def pickAGame():
+  global gamefile
+  gamefile='guess.json' #if we can't find any games then let's set a default which will later be saved
+  games=glob.glob('*.json') #this will list all .json files in the directory which are our games
+  if (len(games)<=1):
+    gamefile=games[0] #if there is only one game then let's pick it and we are done
+    return
+  else:
+    for i in range(len(games)): # otherwise loop through the games and let the player decide
+      print ('{}. {}').format(i+1,games[i])
+    while True:
+      print('Pick a game number to play, from {} to {}').format(1,len(games))
+      theirPick=raw_input()
+      try:
+        theirPick=int(theirPick)
+      except ValueError:
+        theirPick=0
+      if theirPick>0 and theirPick<=len(games):
+        gamefile=games[theirPick-1]
+        return
 
 
 def yesOrNo(question=''):
@@ -76,11 +97,8 @@ def playGame():
       else:
         currentLeaf=currentLeaf['no']
 
-gamefile='guess.json'
-games=glob.glob('*.json')
-if (len(games)<=1):
-  gamefile=games[0]
 debug=False
+pickAGame()
 data=loadTree()
 keepPlaying=True
 while keepPlaying:

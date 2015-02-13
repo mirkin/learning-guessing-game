@@ -1,0 +1,32 @@
+{
+  "question": "Think of a Country.", 
+  "root": {
+    "yes": {
+      "yes": {
+        "yes": null, 
+        "question": "Is it England", 
+        "no": null
+      }, 
+      "question": "Is it part of the United Kingdom", 
+      "no": {
+        "yes": null, 
+        "question": "France", 
+        "no": null
+      }
+    }, 
+    "question": "Is it in Europe", 
+    "no": {
+      "yes": {
+        "yes": null, 
+        "question": "China", 
+        "no": null
+      }, 
+      "question": "Is it in Asia", 
+      "no": {
+        "yes": null, 
+        "question": "The United States Of America", 
+        "no": null
+      }
+    }
+  }
+}
